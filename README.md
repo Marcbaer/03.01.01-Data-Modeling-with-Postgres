@@ -16,3 +16,13 @@ etl.py : This file is used to process the source data and populate the tables cr
 ## Database Design:
 
 <img src="./databasedesign.png" width="500" height="500">
+
+## Database Query Example:
+```
+# Connect to database
+%load_ext sql
+%sql postgresql://student:student@127.0.0.1/sparkifydb_mb
+
+# Number of song plays before specific date
+%sql SELECT COUNT(*) FROM songplays WHERE start_time < '2018-12-10';
+```
