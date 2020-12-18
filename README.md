@@ -15,4 +15,4 @@ etl.py : This file is used to process the source data and populate the tables cr
 
 The Database Design:
 
-<img src="./databasedesign.png">
+<img src="./databasedesign.png" width="200" height="400">
