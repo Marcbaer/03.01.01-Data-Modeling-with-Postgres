@@ -10,5 +10,9 @@ The scripts in the repository are used as described below:
 
 sql_queries.py : This file contains the sql queries used to build, delete and populate the database tables
 create_tables.py : This script needs to be run prior the ETL process can be initiated. It builds the database architecture and tables.
-etl.ipynb : This notebook is used for debugging purposes and processes and inserts a single entry into the created tables
+etl.ipynb : This notebook is used for debugging purposes and processes and inserts a single entry into the created tables.
 etl.py : This file is used to process the source data and populate the tables create by create_tables.py with the source information parsed from the json files
+
+The Database Design:
+
+<img src="./databasedesign.png" width="300" height="600">
